@@ -40,14 +40,14 @@ function test(value){
 }
 
 for(let i=0;i<10;i++){
-arr1[i].innerHTML = arr[i];
+arr1[i].textContent = arr[i];
 
 }
 
 arr=[];
 assign();
 for(let i=0;i<10;i++)
-    arr2[i].innerHTML = arr[i];
+    arr2[i].textContent = arr[i];
 
 
 
@@ -74,7 +74,7 @@ function flip(event){
                     element.style.transform = "rotateY(180deg)";
                     console.log("doing");
                    }
-                if(arr3[0].textContent == arr3[1].textContent){
+                if(arr3[1].textContent == arr3[0].textContent){
                     flag = 0;
                     arr3=[];
                     console.log("matched")
