@@ -76,8 +76,8 @@ function flip(event){
                    }
                 if(arr3[0].textContent == arr3[1].textContent){
                     flag = 0;
-                        arr3=[];
-                        console.log("finish")
+                    arr3=[];
+                    console.log("finish")
                 }
                 else{
                 setTimeout(()=>{
