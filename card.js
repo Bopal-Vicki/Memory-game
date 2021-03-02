@@ -94,7 +94,7 @@ function flip(event){
                         flag = 0;
                         arr3=[];
                         console.log("finish")
-                    },750);
+                    },800);
                 }
             }
             
