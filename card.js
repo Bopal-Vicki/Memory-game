@@ -56,9 +56,6 @@ arr2[i].innerHTML = arr[i];
 console.log(typeof arr[i],arr[i])
 }
 
-for(let m = 0;m<10;m++)
-console.log(typeof (arr1[m].textContent),arr1[m].textContent,typeof (arr2[m].textContent),arr2[m].textContent);
-
 
 function flip(event){
         if(lockcard) return;
