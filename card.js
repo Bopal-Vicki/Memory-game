@@ -26,7 +26,7 @@ let arr2 = [card11,card12,card13,card14,card15,card16,card17,card18,card19,card2
 let flag = 0;
 let arr3=[];
 let element ;
-let lockcard = false;
+let lockcard = false; 
 
 
 
