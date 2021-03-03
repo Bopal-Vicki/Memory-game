@@ -121,7 +121,7 @@ function flipboth(){
         uninitialize();
         lockcard = false;
 
-    },800);
+    },1200);
 
 }
  function uninitialize(){
