@@ -108,7 +108,7 @@ function flipboth(){
          console.log(element.textContent);
          }
         }
-        uninitialize();
+       uninitialize();
 
     },800);
 
