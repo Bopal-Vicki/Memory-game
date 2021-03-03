@@ -94,6 +94,8 @@ function flip(event){
 
 function checkformatch(){
     if(parseInt(arr3[1].textContent) == parseInt(arr3[0].textContent)){
+	arr3[0].onclick = null;
+        arr3[1].onclick = null;
         console.log(typeof arr3[0].innerHTML,typeof arr3[1].innerHTML)
         arr3[0].removeEventListener("click", flip);
         arr3[1].removeEventListener("click", flip);
